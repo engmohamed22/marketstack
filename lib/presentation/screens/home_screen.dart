@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:marketstack/presentation/screens/stock_screen.dart';
 
-import '../../core/di.dart';
-import '../../core/internet_check_wrapper.dart';
+import '../../core/di/di.dart';
+import '../../core/network/internet_check_wrapper.dart';
 import '../blocs/ticker_bloc/ticker_bloc.dart';
 import '../widgets/ticker_card.dart';
 

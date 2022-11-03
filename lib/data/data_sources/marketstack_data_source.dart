@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import '../../core/api_endpoints.dart';
+import '../../core/network/api_endpoints.dart';
 import '../../core/network/i_network_client.dart';
 import '../model/stock_pagination_model.dart';
 import '../model/ticker_pagination_model.dart';

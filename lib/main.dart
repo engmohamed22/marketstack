@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:marketstack/presentation/screens/home_screen.dart';
 
-import 'core/di.dart';
+import 'core/di/di.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

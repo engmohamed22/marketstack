@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 
-import '../../core/di.dart';
-import '../../core/internet_check_wrapper.dart';
+import '../../core/di/di.dart';
+import '../../core/network/internet_check_wrapper.dart';
 import '../blocs/date_range_bloc/date_range_bloc.dart';
 import '../blocs/stock_bloc/stock_bloc.dart';
 import '../widgets/cartesian_chart.dart';
